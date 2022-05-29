@@ -1,5 +1,4 @@
 .main{
-    background-color: rgb(245, 214, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +11,22 @@
 .container_div{
     height: 400px;
     width: 600px;
-    border: 1px solid red;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_div div{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    visibility: hidden;
+    cursor: pointer;
 }
 
 
@@ -29,6 +43,7 @@
     margin: 20px;
     border-radius: 50%;
     border: 1px solid rgb(0, 0, 0);
+    display: block;
 }
 
 .button_div{
