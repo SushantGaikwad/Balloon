@@ -1,0 +1,52 @@
+.main{
+    background-color: rgb(245, 214, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div{
+    margin: 50px;
+}
+
+.container_div{
+    height: 400px;
+    width: 600px;
+    border: 1px solid red;
+}
+
+
+.circle_div{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle_div div{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.button_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    
+}
+
+#input{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#shoot_button{
+    font-size: 30px;
+}
