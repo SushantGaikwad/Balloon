@@ -1,14 +1,14 @@
-import  "./Ball.css";
+import  "./Balloon.css";
 import React, {useState, useEffect, useRef} from "react";
 
 const Ball = () => {
 
     const [num, setNum] = useState(0);
     let colors = useRef([]);
-
+    
  
     useEffect(()=>{
-        colors= ["purple", "yellow", "red", "blue", "orange"]
+        colors= ["purple", "yellow", "red", "blue", "orange"];
         for(let i = colors.length - 1; i > 0; i--){
             let rand = Math.floor(Math.random() * (i + 1));
             [colors[i], colors[rand]] = [colors[rand], colors[i]];
